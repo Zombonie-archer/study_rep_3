@@ -31,8 +31,7 @@ img {
 
 .container {
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-inline: 15px;
     margin-left: 0;
     margin-right: 0;
     margin: 0 auto;
@@ -42,10 +41,13 @@ img {
     padding: 120px 0;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
     padding-inline: 156px;
 
     a {
@@ -118,16 +120,12 @@ img {
 
 .hero-image {
     background-color: #2E2F42;
-
-    .container {
-        padding-top: 68px;
-        padding-bottom: 68px;
-    }
+    padding-block: 188px;
 }
 
 .hero-container {
     margin: 0 auto;
-    width: 496px;
+    max-width: 496px;
     text-align: center;
 }
 
@@ -292,7 +290,7 @@ img {
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
-    padding: 100px 156px;
+    padding-block: 100px;
 
     .container-footer-text {
         width: 264px;
@@ -308,5 +306,4 @@ img {
             margin-top: 16px;
         }
     }
-
 }

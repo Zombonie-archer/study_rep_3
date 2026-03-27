@@ -48,11 +48,12 @@ img {
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
 
-    a {
-        display: inline-block;
-        padding-block: 24px;
-    }
+.header-container-a {
+    display: inline-block;
+    padding-block: 24px;
 }
 
 

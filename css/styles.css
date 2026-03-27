@@ -48,7 +48,6 @@ img {
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding-inline: 156px;
 
     a {
         display: inline-block;

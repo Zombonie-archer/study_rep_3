@@ -217,15 +217,13 @@ img {
 .our-team-li {
     background-color: white;
     border-radius: 0 0 4px 4px;
-    padding-block: 0px 32px;
     padding-inline: 0px;
     flex-basis: calc((100% - 3 * 24px) / 4);
-    height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .card-content {
-    margin: 32px 16px;
+    padding: 32px 16px;
 }
 
 .our-team-h3 {
@@ -283,6 +281,9 @@ img {
 
     .our-portfolio-card {
         padding: 32px 16px;
+        border-bottom: 1px solid #E7E9FC;
+        border-left: 1px solid #E7E9FC;
+        border-right: 1px solid #E7E9FC;
     }
 }
 
